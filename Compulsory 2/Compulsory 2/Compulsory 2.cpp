@@ -23,7 +23,7 @@ int main() {
   
 
         // quick sort
-        std::cout << "Original array: ";
+        std::cout << "Quick Original array: ";
         for (int i = 0; i < n; i++) {
             std::cout << randomQuick[i] << " ";
         }
@@ -41,7 +41,7 @@ int main() {
         }
         std::cout << std::endl;
         // Merge sort
-        std::cout << "Original array: ";
+        std::cout << "Merge Original array: ";
         for (int num : randomMerge) {
             std::cout << num << " ";
         }
@@ -58,7 +58,7 @@ int main() {
         }
 
         //Counting sort
-        std::cout << "\nOriginal array: ";
+        std::cout << "\n Counting Original array: ";
         for (int num : randomCount) {
             std::cout << num << " ";
         }
